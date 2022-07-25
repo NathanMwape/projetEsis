@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuModifierProfil"
+        app:showAsAction="always"
+        android:iconTintMode="@color/white"
+        android:title="Modifier Profiil"
+        android:icon="@drawable/ic_baseline_edit_24"/>
+    <item
+        app:showAsAction="always"
+        android:id="@+id/menuParametre"
+        android:title="Settings"
+        android:icon="@drawable/icon_parametre"/>
+
+</menu>

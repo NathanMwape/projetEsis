@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjouterTravailActivity">
+
+
+    <LinearLayout
+        android:padding="24dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Description"
+            android:inputType="textImeMultiLine" />
+
+        <EditText
+            android:id="@+id/editTextPromotion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Promotion"
+            android:inputType="textImeMultiLine" />
+
+        <EditText
+            android:id="@+id/editTextCategorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Categorie"
+            android:inputType="textImeMultiLine" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Date Travail"
+            android:inputType="textImeMultiLine" />
+
+        <Button
+            android:id="@+id/btnAjoutePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Ajouter Photo." />
+
+        <TextView
+            android:id="@+id/tvNomImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:text="Photo : "
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnAjouteTrav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter/Modifier"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

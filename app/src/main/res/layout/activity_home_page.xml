@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="247dp"
+        android:layout_height="213dp"
+        android:src="@drawable/logo_archive" />
+    <Button
+        android:id="@+id/boutonListDoc"
+        android:text="Liste Travail."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+
+        android:id="@+id/boutonProfil"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Profils."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bouttonAjoutDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AJout Doc." />
+
+</LinearLayout>
